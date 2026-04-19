@@ -18,7 +18,23 @@ body {
 
 h1 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .status-row {
