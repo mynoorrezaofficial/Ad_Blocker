@@ -3,6 +3,11 @@
   "name": "Simple Ad Blocker",
   "version": "1.0",
   "description": "Blocks common ad resources and hides ad containers on web pages.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": [
     "declarativeNetRequest",
     "storage",
