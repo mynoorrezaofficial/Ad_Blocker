@@ -12,13 +12,31 @@
         <img src="icon128.png" alt="Ad Blocker Icon" class="logo" />
         <h1>Ad Blocker</h1>
       </div>
-      <div class="status-row">
-        <span>Status:</span>
-        <strong id="status">Loading...</strong>
+      
+      <div class="stats-container">
+        <div class="stat-box">
+          <span class="stat-label">Total Blocked</span>
+          <strong id="total-blocked">0</strong>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">This Site</span>
+          <strong id="site-blocked">0</strong>
+        </div>
       </div>
-      <button id="toggle">Toggle On/Off</button>
-      <p class="info">Uses simple network rules and DOM hiding for basic ad blocking.</p>
+
+      <div class="status-row">
+        <span>Protection:</span>
+        <strong id="status">Enabled</strong>
+      </div>
+
+      <div class="action-buttons">
+        <button id="toggle" class="btn-primary">Enable/Disable</button>
+        <button id="whitelist" class="btn-secondary">Pause on this Site</button>
+      </div>
+
+      <p class="info">Blocking ads, cookies, and distractions for a cleaner experience.</p>
     </div>
     <script src="popup.js"></script>
   </body>
 </html>
+
