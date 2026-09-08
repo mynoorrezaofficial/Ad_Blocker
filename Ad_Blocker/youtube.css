@@ -1,0 +1,22 @@
+/* Hide YouTube ad UI as early as possible */
+.ytp-ad-module,
+.ytp-ad-image-overlay,
+.ytp-ad-player-overlay,
+.ytp-ad-overlay-container,
+.ytp-ad-preview-text,
+.ytp-ad-text-overlay,
+.ytp-ad-feedback-dialog,
+.ytp-ad-survey,
+.ytp-ad-progress-list,
+.ytp-ad-button,
+.ytp-ad-skip-button,
+.ytp-ad-skip-button-modern,
+.ytp-skip-ad-button,
+.ytp-ad-preview-container,
+#player-ads,
+#masthead-ad {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
